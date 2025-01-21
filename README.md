@@ -47,6 +47,7 @@ Puedes ejecutar este proyecto directamente en Google Colab haciendo clic en el b
    - Sube una imagen y el modelo predice la clase (por ejemplo, Melanoma, Sin Cáncer, etc.).
    - Los resultados se muestran visualmente junto con la imagen y la predicción.
 
+![Ejemplo de Predicción](../lunarron.jpg)
 ---
 
 ## 🖥️ Uso en Google Colab
