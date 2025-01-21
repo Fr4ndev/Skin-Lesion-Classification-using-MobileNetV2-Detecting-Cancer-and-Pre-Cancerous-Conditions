@@ -21,7 +21,7 @@ El modelo se entrenó con el [Dataset HAM10000](https://dataverse.harvard.edu/da
 ## 📂 Notebook de Google Colab
 Puedes ejecutar este proyecto directamente en Google Colab haciendo clic en el botón de abajo:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tu-usuario/tu-repositorio/blob/main/Clasificacion_Lesiones_Piel.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Fr4ndev/Skin-Lesion-Classification-using-MobileNetV2-Detecting-Cancer-and-Pre-Cancerous-Conditions.ipynb)
 
 ---
 
@@ -49,17 +49,6 @@ Puedes ejecutar este proyecto directamente en Google Colab haciendo clic en el b
 
 ---
 
-## 📊 Resultados
-Aquí hay algunos ejemplos de predicciones:
-
-| **Imagen** | **Predicción** | **Confianza** |
-|------------|----------------|---------------|
-| ![Melanoma](ejemplos/melanoma.jpg) | Melanoma (MEL) | 95% |
-| ![Sin Cáncer](ejemplos/sin_cancer.jpg) | Sin Cáncer | 98% |
-| ![BCC](ejemplos/bcc.jpg) | Carcinoma Basocelular (BCC) | 92% |
-
----
-
 ## 🖥️ Uso en Google Colab
 1. Abre el notebook en Google Colab usando el botón de arriba.
 2. Ejecuta las celdas en orden:
@@ -70,4 +59,30 @@ Aquí hay algunos ejemplos de predicciones:
 
 ---
 
-## 📁 Estructura del Proyecto
+
+## 📝 Requisitos
+El notebook instala automáticamente todas las dependencias necesarias. Sin embargo, esto es lo que necesitarás:
+- Python 3.8+
+- TensorFlow 2.x
+- NumPy
+- Pandas
+- Matplotlib
+- PIL (Pillow)
+
+---
+
+## 🤝 Contribuciones
+¡Las contribuciones son bienvenidas! Si deseas mejorar el modelo, agregar nuevas características o corregir errores, no dudes en abrir un issue o enviar un pull request.
+
+---
+
+## 📜 Licencia
+Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+
+---
+
+## 🙏 Agradecimientos
+- Al [Dataset HAM10000](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T) por proporcionar las imágenes de lesiones de piel.
+- A TensorFlow y Keras por el framework de deep learning.
+- A MobileNetV2 por la arquitectura ligera y eficiente.
+
