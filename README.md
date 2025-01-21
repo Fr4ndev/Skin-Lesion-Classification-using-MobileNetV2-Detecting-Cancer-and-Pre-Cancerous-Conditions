@@ -76,11 +76,6 @@ El notebook instala automáticamente todas las dependencias necesarias. Sin emba
 
 ---
 
-## 📜 Licencia
-Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
-
----
-
 ## 🙏 Agradecimientos
 - Al [Dataset HAM10000](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T) por proporcionar las imágenes de lesiones de piel.
 - A TensorFlow y Keras por el framework de deep learning.
